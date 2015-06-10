@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url(https://www.google.com/fonts#UsePlace:use/Collection:Lato:300);
+    font-weight: 300;
+}
+
+body {
+    font-family: "Lato";
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+nav a {
+    color: #E5E5E5;
+    font-size: 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+h1 a {
+    color: red;
+    text-decoration: none;
+    font-size: 64px;
+}
+
+h2 a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #D2D2D2;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+article p:first-letter {
+    float: left;
+    color: #D2D2D2;
+    font-size: 120px;
+    line-height: 60px;
+    padding: 15px 10px 25px 3px;
+    font-family: "Lato";
+}
+
+p {
+    font-size: 23.5px;
+    line-height: 34px;
+}
+
+h4 a {
+    color: red;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-size: 23px;
+    padding: 20px auto;
+}
+
+footer p {
+    color: #D2D2D2;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+footer a + a:before {
+    content: "|";
+    padding: 4px;
+    color: #D2D2D2;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #D2D2D2;
+}
+
+
+
+
