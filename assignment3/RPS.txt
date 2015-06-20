@@ -1,5 +1,5 @@
 Take in one value from two players (r, p, or s)
-r<s, p<r, s<p
+r>s, p>r, s>p
 What values were given by player one and player 2?
 Do the values match? If so, tell the players they match and to "play again."
 If the values are different, which is greater?
