@@ -18,6 +18,7 @@ h1 {
 	color: #F1602D;
 	margin: 20px 0px 20px 0px;
 }
+/* can also be written as margin: 20px 0; */
 
 h2 {
 	clear: both;
