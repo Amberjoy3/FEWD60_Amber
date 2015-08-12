@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Muli|Source+Sans+Pro:400,300|EB+Garamond);
+
+body {
+    font-family: "EB Garamond";
+    background-color: #EBF6FC;
+    }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.hero {
+    background: url("../images/bg-img.jpg") no-repeat center center;
+    background-size: cover;
+    width:100%;
+    height: 750px;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.mainNav {
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.mainNav li {
+    display: inline;
+    padding-left: 40px;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    font-family: "Muli";
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+
+/* Main Content */
+
+.wrapper {
+    clear: both;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.banner {
+    padding-top: 4%;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    float: left;
+    font-family: "EB Garamond";
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #708FC5;
+    letter-spacing: 4px;
+    padding-top: 15px;
+}
+
+.buttons {
+    float: right;
+}
+
+button.active {
+    background-color: #708FC5;
+    color: white;
+    outline: none;
+}
+
+button {
+    width: 160px;
+    height: 50px; 
+    margin: -1px;
+    margin-bottom: -2px;   
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: "Muli";
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p.quote {
+    float:left;
+    font-family: "EB Garamond";
+    font-size: 24px;
+    display: block;
+    letter-spacing: 1px;
+    width: 20%;
+    padding-top: 30px;
+}
+
+.blogFeed {
+    float: right;
+    width: 80%;
+    padding-top: 30px;
+}
+
+h3 {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 4% 0% 2% 0%;
+}
+
+p {
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+article {
+    max-width: 216px;
+    display: inline-block;
+    padding-left: 3%;
+    padding-bottom: 4%;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+.archiveButton {
+    clear: both;
+    float: right;
+    font-family: "EB Garamond";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #708FC5;
+    padding-bottom: 7%;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    clear: both;
+    margin-top: 4%;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    padding-left: 3%;
+    padding-top: 24px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    font-family: 'Muli';
+}
+
+footer a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+footer span {
+    float:right;
+    display: inline-block;
+    padding-right: 3%;
+    padding-top: 16px;
+}
+
+footer span img {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
