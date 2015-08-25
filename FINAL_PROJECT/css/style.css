@@ -139,9 +139,9 @@ article a {
 .archiveButton {
     clear: both;
     float: right;
-    font-family: "EB Garamond";
+    font-family: "EB Garamond"; /*EM: don't forget to put a back up default font here in case your primary font fails */
     font-size: 24px;
-    text-transform: uppercase;
+    text-transform: uppercase; /* EM: a personal css favorite */
     letter-spacing: 4px;
     color: #708FC5;
     padding-bottom: 7%;
